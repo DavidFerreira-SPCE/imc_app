@@ -16,8 +16,8 @@ export default function Index() {
       </View>
 
       <View> 
-        <TextInput keyboardType="numeric" defaultValue= "ex: 66" style={styles.TextPut} placeholder="Peso (Kg)"></TextInput>
-        <TextInput keyboardType="numeric" defaultValue= "ex: 1.62" style={styles.TextPut} placeholder="Altura (cm)"></TextInput>
+        <TextInput keyboardType="numeric"style={styles.TextPut} placeholder="Peso (Kg) example: 50.25"></TextInput>
+        <TextInput keyboardType="numeric"style={styles.TextPut} placeholder="Altura (cm) example: 1.45"></TextInput>
       </View>
     </View>
   );
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
    width: '80%',
    height: 70,
    margin: 20,
-   marginLeft: 36
-   
+   marginLeft: 36,
+   borderRadius: 10
   },
 });
